@@ -1,0 +1,39 @@
+
+body{
+	font-family: 'Lato', sans-serif;
+	color: #2d3c49;
+	font-weight: 250;
+}
+.title-container{
+	text-align: right;	
+}
+.separator{
+	padding: 0.5em 0;
+	border-bottom: solid #2d3c49 2px;
+	margin-bottom: 0.5em;
+}
+.logo{
+	max-width: 100px;
+	max-height: 100px;
+}
+.footer{
+	background-color: gray;
+	color: white;
+	min-height: 10vh;
+	text-align: center;
+}
+.footer p{
+	margin-bottom:0px;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.title{
+	font-size: 3em;
+}
+
+@media screen and (max-width: 991px){
+	header, .title-container{
+		text-align: center;
+	}
+}
