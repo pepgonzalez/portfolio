@@ -37,3 +37,9 @@ body{
 		text-align: center;
 	}
 }
+
+@media screen and (max-width:770px){
+	article{
+		text-align: center;
+	}
+}
